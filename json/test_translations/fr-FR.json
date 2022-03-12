@@ -1,0 +1,4 @@
+{
+	"Test string": "Tester la chaîne",
+	"I have {{ num }} problems {{ xyz }}": "J'ai {{ num }} problèmes {{ xyz }}"
+}

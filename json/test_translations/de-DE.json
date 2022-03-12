@@ -1,0 +1,4 @@
+{
+	"Test string": "Test-Zeichenfolge",
+	"I have {{ num }} problems {{ xyz }}": "Ich habe {{ num }} Probleme {{ xyz }}"
+}
