@@ -117,6 +117,7 @@ component Translator
 	public string function translate(required string englishPhrase, struct replaceMap = {})
 	{
 		if (!variables.translations.keyExists(arguments.englishPhrase)) {
+			flagMissingTranslation();
 			return arguments.englishPhrase;
 		}
 
@@ -170,6 +171,11 @@ component Translator
 		} catch (lucee.commons.io.cache.exp.CacheException noCache) {
 			return false;
 		}
+	}
+
+	private void function flagMissingTranslation()
+	{
+
 	}
 
 }
